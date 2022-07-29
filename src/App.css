@@ -2,30 +2,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Space+Mono:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Montserrat:wght@500&family=Space+Mono:wght@400;700&display=swap');
 
+body {
+  margin: 0 auto;
+  max-width: 1440px;
+  max-height: 1080px;
+}
+img {
+  margin-left: -30px;
+  margin-right: 55px;
+  width: 539px;
+  height: 447px;
+}
+.all {
+  width: 80%;
+  margin: 0 auto;
+}
 h1 {
   font-family: 'Space Mono', monospace;
-  font-size: 32px;
+  font-size: 40px;
+  color: #333333;
   margin-right: 100px;
 }
-
+h2 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #4F4F4F;
+  font-family: 'Space Mono', monospace;
+  margin-right: 210px;
+  margin-top:  36px;
+}
 h3 {
   padding: 20px;
   font-family: 'Inconsolata', monospace;
   font-weight: 700;
-  font-size: 12px;
+  font-size: 24px;
   text-transform: uppercase;
 }
-
-body {
-  max-width: 1440px;
-  max-height: 1080px;
-  margin: 0 auto;
+button {
+  padding: 20px 50px;
+  background-color: #333333;
+  color: #fff;
+  font-family: 'Space Mono', monospace;
+  font-size: 14px;
+  font-weight: 700;
+  margin-top: 64px;
+  cursor: pointer;
+  text-transform: uppercase;
 }
-.all{
-  width: 80%;
-  margin: 0 auto;
-}
-
 .content {
   margin-top: 10px;
   display: flex;
@@ -33,36 +56,4 @@ body {
   align-items: center;
 }
 
-
- text {
-  font-family: 'Inconsolata';
-  font-style: normal;
-  font-weight: 700; 
-  font-size: 12px;
-  color: #333333
- }
-
-
- img {
-  margin-left: -30px;
-  margin-right: 35px;
-  width: 539px;
-  height: 447px;
-}
-
-.texts {
-  margin-left: 20px;
-}
-
-button {
-  margin-top: 30px;
-  background-color: #333333;
-  font-family: 'Space Mono', monospace;
-  color: #fff;
-  font-size: 12px;
-  text-transform: uppercase;
-  font-weight: 700;
-  padding: 23px 43px;
-  cursor: pointer;
-}
 
